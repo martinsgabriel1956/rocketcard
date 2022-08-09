@@ -4,7 +4,7 @@ const { name, avatar, followers, following, repositories, company, location } = 
 
 export async function getGithubUserInfo(username) {
   try {
-    const response = await fetch(`http://api.github.com/users/${username}`);
+    const response = await fetch(`https://api.github.com/users/${username}`);
     const data = await response.json();
   
     name.textContent = data.name;
