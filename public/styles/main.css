@@ -1,0 +1,143 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 9.125rem;
+}
+
+main .card-section span:nth-child(1) {
+  color: var(--buttons);
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 1.375rem;
+}
+
+.card-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  background: var(--bg);
+  width: 438px;
+  height: 693px;
+  border-radius: 3.125rem;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-content {
+  background-color: var(--bg-card);
+  width: 25.4375rem;
+  height: 40.25rem;
+  border-radius: 3.125rem;
+  overflow: hidden;
+}
+
+.username-container {
+  padding: 2.3613rem 0 2.6113rem 2.0987rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 1.215rem;
+}
+
+.img-container {
+  width: 3.4638rem;
+  height: 3.4025rem;
+  background-color: var(--bg);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid var(--text);
+}
+
+header span {
+  font-size: 1.5rem;
+  color: var(--buttons);
+}
+
+.avatar-container {
+  position: relative;
+  margin-bottom: 3.75rem;
+}
+
+.avatar-container img {
+  width: 23.25rem;
+  height: 23.1394rem;
+  border: 10px solid var(--img-profile);
+  border-radius: 50%;
+  position: relative;
+  right: -100px;
+}
+
+.info-container {
+  padding: 1.8738rem 1.2781rem;
+  background: linear-gradient(180deg, #000000 3.65%, rgba(70, 69, 69, 0.72) 53.65%, rgba(62, 56, 56, 0.42) 100%);
+  border-radius: 3.125rem;
+  position: absolute;
+
+  top: 55%;
+  left: 2.25rem;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.info-content {
+  display: flex;
+  gap: 0.5625rem;
+}
+
+.info-content:not(:last-child) {
+  margin-bottom: 0.5081rem;
+}
+
+.info-content span {
+  font-size: 1rem;
+  color: var(--buttons);
+}
+
+.footer-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footer-card-container span {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  color: var(--buttons);
+  padding-right: 1.5rem;
+}
+
+.color-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.color-section span {
+  font-size: 20px;
+  color: var(--buttons);
+  margin-bottom: 2.0625rem;
+}
+
+.color-section button {
+  padding: 1.125rem 2.875rem;
+  border-radius: 0.9375rem;
+  background: var(--bg);
+  color: var(--buttons);
+  border: 2px solid var(--border-button);
+  font-size: 0.9375rem;
+}
